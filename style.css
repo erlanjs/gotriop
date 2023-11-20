@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+#header {
+  position: absolute;
+  width: 100%;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0;
+}
+
+.logo {
+  color: white;
+  font-weight: 700;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 80px;
+}
+
+.nav-links a {
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.sign-up {
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.login {
+  padding: 13px 44px;
+  border: none;
+  border-radius: 100px;
+  background: linear-gradient(130deg, #ff7b4e 15.57%, #ff584e 95.03%), #fff;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+/*HERO*/
+
+#hero {
+  background-image: url("./images/hero-bg.png");
+  background-repeat: no-repeat;
+  background-position: top;
+  min-height: 1000px;
+}
+
+.hero {
+  display: flex;
+  gap: 100px;
+  padding-top: 123px;
+}
